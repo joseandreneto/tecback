@@ -41,5 +41,14 @@ public class UsuarioController {
         return client.consultaCep(cep);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Boolean> excluir(@PathVariable("id") Integer id){
+        if(service.excluir(id)){
+            return ResponseEntity.ok().build();
+        }else{
+            return ResponseEntity.notFound().build();
+        }
+    }
+
 
 }
