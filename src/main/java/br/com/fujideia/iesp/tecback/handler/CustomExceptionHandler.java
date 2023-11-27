@@ -1,8 +1,7 @@
 package br.com.fujideia.iesp.tecback.handler;
 
-import br.com.fujideia.iesp.tecback.exceptions.CustomException;
+import br.com.fujideia.iesp.tecback.exception.CustomException;
 import br.com.fujideia.iesp.tecback.model.dto.ErrorDTO;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

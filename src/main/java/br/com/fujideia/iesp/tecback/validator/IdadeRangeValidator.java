@@ -1,6 +1,5 @@
 package br.com.fujideia.iesp.tecback.validator;
 
-
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

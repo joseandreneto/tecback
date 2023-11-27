@@ -1,4 +1,4 @@
-package br.com.fujideia.iesp.tecback.exceptions;
+package br.com.fujideia.iesp.tecback.exception;
 
 public class CustomException extends RuntimeException {
     public CustomException(String message) {
