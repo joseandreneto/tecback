@@ -16,6 +16,8 @@ public class Usuario {
     @Id
     @GeneratedValue
     private Integer id;
+
+
     @Nome
     @NotBlank(message = "O campo 'nome' não pode estar em branco.")
     private String nome;
